@@ -10,7 +10,7 @@ model = "gpt-3.5-turbo-16k"
 assistant_id = "asst_P7wLpPORakcelaWszNSWEKZx"
 thread_id = "thread_L8uB8BitO4zQ0vYBIKRnrkW9"
 
-
+def bot_page(request): 
     message = "how much water should I drink in a day?"
     message = client.beta.threads.messages.create(
         thread_id=thread_id,
